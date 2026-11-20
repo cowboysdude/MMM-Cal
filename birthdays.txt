@@ -1,0 +1,16 @@
+# MMM-Cal birthdays file
+#
+# One birthday per line:   date, name
+#
+#   MM-DD, Name         -> repeats every year            (03-14, Mom)
+#   YYYY-MM-DD, Name    -> repeats every year AND shows the age
+#                          ("Grandpa turns 70")
+#
+# Lines starting with # are ignored, and so are blank lines.
+# These are examples only. Replace them with your own people.
+
+03-14, Mom
+07-02, Dad
+1956-11-22, Grandpa
+1988-12-05, Sarah
+04-30, Uncle Bob

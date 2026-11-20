@@ -1,0 +1,9 @@
+{
+  "name": "mmm-cal",
+  "version": "1.0.0",
+  "description": "MagicMirror² module that lists upcoming US holidays with a countdown (Today, Tomorrow, in X days).",
+  "main": "MMM-Cal.js",
+  "author": "cowboysdude",
+  "license": "MIT",
+  "keywords": ["MagicMirror", "holiday", "countdown", "calendar"]
+}

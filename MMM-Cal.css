@@ -1,0 +1,49 @@
+/* MMM-Cal: every rule is scoped to this module only */
+
+.MMM-Cal table {
+	border-collapse: collapse;
+}
+
+.MMM-Cal td {
+	padding: 1px 0;
+	line-height: 1.4;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.MMM-Cal .symbol {
+	padding-right: 8px;
+	color: #999;
+}
+
+.MMM-Cal .title {
+	padding-right: 14px;
+	text-align: left;
+}
+
+.MMM-Cal .date {
+	padding-right: 14px;
+	text-align: right;
+}
+
+.MMM-Cal .countdown {
+	text-align: right;
+	color: #999;
+}
+
+/* holidays within "highlightDays" */
+.MMM-Cal .soon .countdown,
+.MMM-Cal .soon .symbol {
+	color: #fff;
+}
+
+/* the holiday is today */
+.MMM-Cal .today .countdown {
+	color: #ffd84d;
+	font-weight: bold;
+}
+
+/* birthdays from birthdays.txt */
+.MMM-Cal .birthday .symbol {
+	color: #ff8fb8;
+}
